@@ -30,7 +30,7 @@ const Comingsoon = () => {
       style={{width:"300px", height:"300px"}}>
 </lord-icon>
         {/* <img src={pyramid} alt="pyramid"/> */}
-           <div className='text-md'> This Page is under contruction </div>
+           <div className='text-md font-bold mb-2'> This Page is under contruction </div>
            <div className='text-sm'> Some Functions like Checkout, Delivery, Pickup <br></br>And Search Functionality Might not work</div>
            </div>
            <div className='absolute text-xs bottom-0 right-1 p-2'><span className='text-yellow-500'>Contact</span>:oluwarimigbadebo@gmail.com</div>
