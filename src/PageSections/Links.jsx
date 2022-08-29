@@ -48,7 +48,7 @@ const Links = () => {
 
             <div onClick={() => dispatch(comingsoon())} className=' mx-2 my-2 inline-block p-4 w-24 h-32 rounded-md items-center hover:shadow-violet-500 text-center hover:shadow-2xl hover:bg-slate-50 cursor-pointer transition duration-300 ease-in-out align-middle bg-gray-400 bg-opacity-20'>
                     <div className='items-center m-auto w-10 h-14 mb-1'><img src={svgimg3} alt='svg' className=""/></div>
-                    <div className='text-gray-700 text-xs text-center'>Baby Wears</div>
+                    <div className='text-gray-700 text-xs text-center'>Baby Products</div>
             </div>
 
             <div onClick={() => dispatch(comingsoon())} className='mx-2 my-2 inline-block p-4 w-24 h-32 rounded-md items-center hover:shadow-violet-500 text-center hover:shadow-2xl hover:bg-slate-50 cursor-pointer transition duration-300 ease-in-out align-middle bg-gray-400 bg-opacity-20'>
