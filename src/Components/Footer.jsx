@@ -5,11 +5,12 @@ const Footer = () => {
   return (
     <div className=' relative w-full bg-yellow-200 min-h-min p-4 text-center text-gray-700'>
       <div className='m-auto w-9/12 align-middle items-center'>
-      <div className='mb-6 font-bold'>We'd Love See you again </div>
-      <div className='inline-block w-full mb-3 divide-x-2 divide-gray-100'>
-        <div className='mr-2'>Address: Coscharis plaza no 3</div>
-        <div className='pl-2'>Follow Us on Facebook | twitter | instagram |</div>
-        <div>You can also Email us at : templatestores@gmail.com</div>
+      <div className='mb-6 font-bold text-md'>We'd Love See you again </div>
+      <div className='inline-block w-full mb-3 divide-x-2 divide-gray-100 text-sm'>
+        <div className='mr-2'>Address: <span className='font-bold'> Pent House - Coscharis Plaza
+6, Faskaris Street Garki Area 3, FCTA. ABUJA</span></div>
+        <div className='pl-2'>Follow Us on <span className='font-bold'>Facebook</span> | <span className='font-bold'>Twitter</span> |  <span className='font-bold'>Instagram</span>  |</div>
+        <div>You can also Email us at :<span className='font-bold'> picotelng@gmail.com</span></div>
       </div>
       <div className='text-white bg-yellow-400 p-2 rounded-full w-80 m-auto border cursor-pointer border-gray-400'>Give FeedBack</div>
       <div className='text-sm mt-3'>2022 All Rights Reserved</div>

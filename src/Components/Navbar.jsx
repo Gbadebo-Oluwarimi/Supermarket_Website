@@ -17,7 +17,7 @@ const Navbar = () => {
             </div>
                 <Search/>
                 <div className='hidden md:inline-block text-right '>
-                    <div className='font-bold text-gray-800'>090-784-838847</div>
+                    <div className='font-bold text-gray-800'>090-995-973-33</div>
                     <small className=''>Call Us on</small>
                 </div>
                 <div className='flex w-32 justify-between'>

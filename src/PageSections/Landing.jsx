@@ -25,7 +25,7 @@ const Landing = () => {
             <lord-icon
     src="https://cdn.lordicon.com/xxdqfhbi.json"
     trigger="loop"
-    delay="1000"
+    delay="500"
     colors="primary:#4bb3fd,secondary:#ffc738,tertiary:#f28ba8,quaternary:#f24c00,quinary:#121331"
     style={{width:"100px", height:"100px"}}>
 </lord-icon>
