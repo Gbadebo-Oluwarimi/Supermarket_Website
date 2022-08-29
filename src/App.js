@@ -6,12 +6,16 @@ import { useSelector } from 'react-redux'
 // import Comingsoon from './PageSections/Comingsoon'
 import Addtocart from './PageSections/Addtocart';
 import Comingsoon from './PageSections/Comingsoon';
+import Added from './Components/Added';
 function App() {
-  const {soon, product, products} = useSelector((state) => state.changestate)
+  const {soon, product, products, addedsuccessfully} = useSelector((state) => state.changestate)
   return (
+    <>
     <div className="App">
+      {}
       {products && <Addtocart/>}
       {soon && <Comingsoon/>}
+      {addedsuccessfully && <Added/>}
       <Routes>
         <Route index path="/" element={<HomePage/>}/>
         {/* <Route path='/:id/product' element={<Product/>}/>
@@ -19,6 +23,7 @@ function App() {
         <Route path="/added-to-cart" element={<Addtocart/>}/> */}
       </Routes>
     </div>
+    </>
   );
 }
 

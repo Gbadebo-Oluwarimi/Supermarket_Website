@@ -245,5 +245,5 @@ const addToCartSlice = createSlice({
 
     }
 })
-export const { addToCart, removefromcart, findalladded } = addToCartSlice.actions
+export const { addToCart, removefromcart, findalladded, message } = addToCartSlice.actions
 export default addToCartSlice.reducer

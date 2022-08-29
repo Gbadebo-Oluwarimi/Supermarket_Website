@@ -5,6 +5,7 @@ const initialState = {
     product:false,
     products:false,
     popup:false,
+    addedsuccessfully:false
 }
 
 const stateChangeSlice = createSlice({
@@ -22,8 +23,11 @@ const stateChangeSlice = createSlice({
         },
         updatePopup:(state) => {
             state.popup  =!state.popup
+        },
+        updateadded:(state) => {
+            state.addedsuccessfully = !state.addedsuccessfully
         }
     }
 })
-export const { productsState, productstate, comingsoon, updatePopup } = stateChangeSlice.actions
+export const { productsState, productstate, comingsoon, updatePopup, updateadded } = stateChangeSlice.actions
 export default stateChangeSlice.reducer
