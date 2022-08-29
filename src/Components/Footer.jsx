@@ -11,7 +11,7 @@ const Footer = () => {
         <div className='pl-2'>Follow Us on Facebook | twitter | instagram |</div>
         <div>You can also Email us at : templatestores@gmail.com</div>
       </div>
-      <div className='text-white bg-yellow-400 p-2 rounded-full w-80 m-auto border-2 cursor-pointer border-gray-400'>Give FeedBack</div>
+      <div className='text-white bg-yellow-400 p-2 rounded-full w-80 m-auto border cursor-pointer border-gray-400'>Give FeedBack</div>
       <div className='text-sm mt-3'>2022 All Rights Reserved</div>
       <div className='absolute top-10 opacity-30 rotate-45'><img src={svg1} alt="ima" style={{width:"50px"}}/></div>
       <div className='absolute top-14 right-24 opacity-25 -rotate-45'><img src={svg1} alt="ima" style={{width:"50px"}}/></div>
