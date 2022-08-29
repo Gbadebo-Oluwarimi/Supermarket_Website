@@ -1,0 +1,17 @@
+.landing{
+    min-height: 60vh;
+    overflow: hidden;
+    @apply w-full bg-opacity-10 overflow-hidden p-5
+
+}
+.background{
+    background-repeat: no-repeat;
+    background-position: left;
+    opacity: 1;
+}
+.images{
+    background-image:url('../../../public/images/free.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    @apply w-full h-96
+}

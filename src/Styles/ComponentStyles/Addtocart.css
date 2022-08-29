@@ -1,0 +1,48 @@
+.main{
+    width:100%;
+    position:fixed;
+    min-height: 100%;
+    z-index:30;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    padding:20px;
+}
+.main2{
+    margin:auto;
+    position: relative;
+    overflow-y: auto;
+    max-width:67rem;
+    background: rgba(255, 255, 255, 0.952);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.281);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border-radius: 4px;
+    height:37rem;
+    padding:2rem;
+    @apply text-gray-700
+}
+
+
+
+::-webkit-scrollbar {
+    width: 14px;
+    z-index:50
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #d6dee1ec;
+    border-radius: 20px;
+    border: 5px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #a8bbbf;
+  }

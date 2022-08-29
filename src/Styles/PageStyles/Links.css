@@ -1,0 +1,11 @@
+.imagecont{
+    background-position: center;
+    background-size: cover;
+    height:10rem;
+    width:10rem;
+    @apply w-full aspect-square rounded-sm overflow-hidden transition duration-300 ease-in-out hover:bg-opacity-50 cursor-pointer
+}
+
+.header1{
+  
+}
